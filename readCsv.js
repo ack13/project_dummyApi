@@ -78,10 +78,10 @@ function convertToApiInput(data) {
     
     console.log(rows)
     const isValid = rows.every((row, index) => {
-        if (index === 0) {
+       
             return validateHeaders(row, validHeaders);
-        }
-        return true;
+        
+       
     });
     return isValid;
 }
