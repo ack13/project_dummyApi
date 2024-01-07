@@ -18,6 +18,9 @@ git clone https://github.com/ack13/project_dummyApi.git
 # Install NPM dependencies
 npm install
 
+#Run dummy-api.js
+node dummy-api.js
+
 # Then simply start your app
 npm start
 ```
@@ -28,7 +31,7 @@ npm start
 ### How to Use:
 
 1. Run readCsv.js & dummy-api.js
-2. Open [http://localhost:3001] with your browser to see the result.
+2. Open http://localhost:3001 with your browser to see the result.
 3. Select a file from your device.
 4. Upload the file.
 5. You will get a response showing the csv file contents.
